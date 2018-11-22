@@ -1,0 +1,36 @@
+#personal-information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#fullname {
+  width: 74.8%;
+}
+
+#phone {
+  width: 24.5%;
+}
+
+#email {
+  width: 74.8%;
+}
+
+#re-email {
+  width: 74.8%;
+}
+#adress {
+  width: 74.8%;
+  margin-right: 24.5%;
+}
+
+#city,
+#state,
+#region,
+#zip {
+  width: 24.5%;
+}
+
+#how {
+  width: 100%;
+}

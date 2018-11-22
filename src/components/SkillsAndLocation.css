@@ -1,0 +1,35 @@
+#skillsAndLocation {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+.sl-question {
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  font-weight: normal;
+}
+
+.sl-question-container {
+  width: 100%;
+}
+
+#primary-design-discipline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#primary-design-discipline div {
+  width: 23%;
+}
+
+#other-disciplines {
+  width: 48%;
+}
+
+#location {
+  width: 48%;
+}

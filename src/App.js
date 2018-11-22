@@ -1,25 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import PersonalInformation from "./components/PersonalInformation";
+import Header from "./components/Header";
+import SkillsAndLocation from "./components/SkillsAndLocation";
+import Portfolio from "./components/Portfolio";
+import SubmitButton from "./components/SubmitButton";
 
 class App extends Component {
+  handleSubmit = () => {};
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header
+          headerTitle="Let's talk"
+          pText="Think you have what it takes? Show us."
+        />
+        <main className="wrapper">
+          <form onSubmit={this.handleSubmit}>
+            <PersonalInformation />
+
+            <SkillsAndLocation />
+
+            <Portfolio />
+
+            <SubmitButton title="Submit" />
+          </form>
+        </main>
       </div>
     );
   }

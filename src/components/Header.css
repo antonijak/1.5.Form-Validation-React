@@ -1,0 +1,21 @@
+.form-header {
+  background: rgb(68, 70, 75);
+  height: 11rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.header-main-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.header-text {
+  text-align: center;
+}
