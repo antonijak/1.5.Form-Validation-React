@@ -30,6 +30,6 @@ form {
 .section-title {
   width: 100%;
   border-bottom: 3px solid var(--main-color);
-  margin: 2rem 0 1rem;
+  margin: 3rem 0 1.5rem;
   padding-bottom: 0.5rem;
 }

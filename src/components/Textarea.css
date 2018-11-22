@@ -1,0 +1,9 @@
+.portfolio-textarea {
+  margin: 2rem 0;
+  background: var(--main-backgroun-color);
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid gray;
+}

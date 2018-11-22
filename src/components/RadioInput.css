@@ -9,8 +9,10 @@
   position: absolute;
 }
 
-.radio-container input:checked + .radio-label {
-  background: #43b2f8;
+.radio-container input:checked + .radio-label,
+.radio-container input:hover + .radio-label {
+  background: var(--main-color);
+  border-color: var(--main-color);
 }
 
 .radio-label {
@@ -18,4 +20,5 @@
   display: block;
   padding: 1rem;
   width: 100%;
+  font-weight: bold;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import TextInput from "./TextInput";
+import Textarea from "./Textarea";
 import "./Portfolio.css";
 
 const Portfolio = props => {
@@ -11,11 +12,11 @@ const Portfolio = props => {
       <h2 className="section-title"> 3. Portfolio</h2>
       <h3 className="sl-question">{title}</h3>
       <TextInput type="text" name="portfolio" placeholder="Portfolio link*" />
-      <textarea
+      <Textarea
         className="portfolio-textarea"
         placeholder="Anything else (another link, availability, etc.)?"
         rows="10"
-        cols="163"
+        cols="120"
       />
     </section>
   );

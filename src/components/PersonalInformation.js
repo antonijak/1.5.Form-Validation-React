@@ -19,7 +19,7 @@ const PersonalInformation = props => {
         type="email"
         name="re-email"
         id="re-email"
-        labelTitle="Re-enter email*"
+        placeholder="Re-enter email*"
       />
       <TextInput type="text" name="adress" id="adress" placeholder="Adress*" />
       <TextInput type="text" name="city" id="city" placeholder="City*" />
